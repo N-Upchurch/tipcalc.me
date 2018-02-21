@@ -21,6 +21,9 @@ form {
 h1 {
     color: rgba(0,200,255,1);
 }
+input {
+    max-width: 100px;
+}
 .photoCredit {
     font-size: 8px;
 }
