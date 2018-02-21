@@ -1,5 +1,5 @@
 body {
-    background: url("../images/doodles.png");
+    background: url("../images/geometry.png");
     background-position: center;
     background-attachment: fixed;
     max-width: 800px;
@@ -7,13 +7,14 @@ body {
     color: darkslategrey;
 }
 #calc {
-    background: rgba(255,255,255,.85);
+    background: rgba(255,255,255,.8);
     border-style: solid;
     border-radius: 10px;
     border-width: 2px;
     border-color: rgba(0,0,0,.2);
-    padding: 5rem;
+    padding: 5rem 5rem 3rem 5rem;
     margin-top: 10%;
+    box-shadow: 7px 7px rgba(0,0,0,.1);
 }
 form {
     display: inline;
@@ -31,7 +32,14 @@ input {
     background: rgba(0,200,255,1);
     border-radius: 10px;
     padding: .5rem;
+    margin-top: 3rem;
     color: white;
+    box-shadow: 5px 5px rgba(0,0,0,.1)
+}
+.spiel {
+    margin: auto;
+    text-align: center;
+    max-width: 50rem;
 }
 #tip {
     font-size: 1.2rem;
